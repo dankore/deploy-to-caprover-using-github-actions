@@ -10,12 +10,12 @@ jobs:
   build-my-app:
 
     runs-on: ubuntu-latest
-    
     steps:
     - name: Build and Push Docker Image
+    - run: npm start './index.js' 
     - uses: AlexxNB/caprover-action@v1
       with:
          server: 'https://captain.server01.dankore.com'
          password: '${{ secrets.CAPROVER_PASSWORD }}'
          appname: 'github'
-         run: npm start './index.js' 
+       
