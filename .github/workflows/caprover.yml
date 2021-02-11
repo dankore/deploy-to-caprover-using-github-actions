@@ -14,11 +14,12 @@ jobs:
     steps:
     - name: Build and Push Docker Image
     - uses: AlexxNB/caprover-action@v1
+    
       with:
        server: 'https://captain.server01.dankore.com'
        password: '${{ secrets.CAPROVER_PASSWORD }}'
        appname: 'github'
-
+    - run: npm start ./index.js 
 
 
 
