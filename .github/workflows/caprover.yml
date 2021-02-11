@@ -26,4 +26,5 @@ jobs:
           server: "${{ secrets.CAPROVER_URL }}"
           password: "${{ secrets.CAPROVER_PASSWORD }}"
           appname: "${{ secrets.CAPROVER_APP }}"
-          image: docker.pkg.github.com/dankore/docker:master
+          image: docker.pkg.github.com/dankore/docker:master 
+          repository: dankore/docker/docker
