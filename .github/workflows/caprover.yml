@@ -7,15 +7,23 @@ on:
     branches: [ master ]
 
 jobs:
-  build-my-app:
-
+ # Publishes a docker image of the server app, and deploys it Caprover.
+  server-deploy:
     runs-on: ubuntu-latest
+    container: node:14
     steps:
-    - name: Build and Push Docker Image
-    - run: npm start './index.js' 
-    - uses: AlexxNB/caprover-action@v1
-      with:
-         server: 'https://captain.server01.dankore.com'
-         password: '${{ secrets.CAPROVER_PASSWORD }}'
-         appname: 'github'
-       
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Push docker image to GitHub Packages
+        uses: docker/build-push-action@v1
+        with:
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: docker.pkg.github.com
+      - name: Deploy image
+        uses: stardustventures/caprover-deploy@v2
+        with:
+          server: "${{ secrets.CAPROVER_URL }}"
+          password: "${{ secrets.CAPROVER_PASSWORD }}"
+          appname: "${{ secrets.CAPROVER_APP }}"
+          image: docker.pkg.github.com/dankore/docker:master
