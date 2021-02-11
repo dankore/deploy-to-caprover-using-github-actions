@@ -1,5 +1,24 @@
-uses: AlexxNB/caprover-action@v1
-with:
-  server: 'https://captain.server01.dankore.com'
-  password: '${{ secrets.CAPROVER_PASSWORD }}'
-  appname: 'github'
+name: Deploy to Caprover
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build-my-app:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Build and Push Docker Image
+      uses: AlexxNB/caprover-action@v1
+      with:
+       server: 'https://captain.server01.dankore.com'
+       password: '${{ secrets.CAPROVER_PASSWORD }}'
+       appname: 'github'
+
+
+
+
