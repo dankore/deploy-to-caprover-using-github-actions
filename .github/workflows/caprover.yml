@@ -1,0 +1,5 @@
+uses: AlexxNB/caprover-action@v1
+with:
+  server: 'https://captain.server01.dankore.com'
+  password: '${{ secrets.CAPROVER_PASSWORD }}'
+  appname: 'github'
