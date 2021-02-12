@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "exit 0",
-    "start": "exit 0"
+    "start": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dankore/docker/issues"
   },
-  "homepage": "https://github.com/dankore/docker#readme"
+  "homepage": "https://github.com/dankore/docker#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
