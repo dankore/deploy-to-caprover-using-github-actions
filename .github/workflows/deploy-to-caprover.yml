@@ -19,7 +19,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: dankore/docker/deploy-to-caprover-using-github-actions
+          repository: dankore/deploy-to-caprover-using-github-actions/deploy-to-caprover-using-github-actions
           tag_with_ref: true
       # DEPLOY TO CAPROVER. SECRETS STORED IN https://github.com/settings/tokens
       - name: Deploy image
