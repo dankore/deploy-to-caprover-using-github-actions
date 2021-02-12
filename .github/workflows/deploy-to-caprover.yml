@@ -6,11 +6,11 @@ on:
     branches: [ master ]
 
 jobs:
- # Publishes a docker image of the server app, and deploys it Caprover.
   caprover-deploy:
     runs-on: ubuntu-latest
     container: node:14
     steps:
+      # BUILD THE IMAGE
       - name: Checkout
         uses: actions/checkout@v2
       - name: Push docker image to GitHub Packages
@@ -21,6 +21,7 @@ jobs:
           registry: docker.pkg.github.com
           repository: dankore/docker/docker
           tag_with_ref: true
+      # DEPLOY TO CAPROVER. SECRETS STORED IN https://github.com/settings/tokens
       - name: Deploy image
         uses: stardustventures/caprover-deploy@v2
         with:
