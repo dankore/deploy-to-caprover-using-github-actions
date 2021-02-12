@@ -1,6 +1,6 @@
 {
-  "name": "@dankore/docker",
-  "version": "1.0.4",
+  "name": "@dankore/deploy-to-caprover-using-github-actions",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
