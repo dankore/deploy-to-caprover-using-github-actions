@@ -21,7 +21,7 @@ jobs:
           registry: docker.pkg.github.com
           repository: dankore/deploy-to-caprover-using-github-actions/deploy-to-caprover-using-github-actions
           tag_with_ref: true
-      # DEPLOY TO CAPROVER. SECRETS STORED IN https://github.com/settings/tokens
+      # DEPLOY TO CAPROVER. SECRETS STORED IN https://github.com/YOUR-USERNAME/deploy-to-caprover-using-github-actions/settings/secrets/actions
       - name: Deploy image
         uses: stardustventures/caprover-deploy@v2
         with:
