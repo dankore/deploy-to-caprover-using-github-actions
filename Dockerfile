@@ -16,7 +16,7 @@ RUN npm install --production
 # Copy all files
 COPY ./ ./
 
-# Expose the listening port deafult 3001 for Lite-Server
+# Expose the listening port
 EXPOSE 3000
 
 # Run container as non-root (unprivileged) user
