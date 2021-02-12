@@ -16,8 +16,8 @@ RUN npm install --production
 # Copy all files
 COPY ./ ./
 
-# Expose the listening port
-EXPOSE 80
+# Expose the listening port deafult 3001 for Lite-Server
+EXPOSE 3001 
 
 # Run container as non-root (unprivileged) user
 # The "node" user is provided in the Node.js Alpine base image
