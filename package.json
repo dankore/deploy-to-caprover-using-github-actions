@@ -1,6 +1,6 @@
 {
-  "name": "@dankore/deploy-to-caprover-using-github-actions",
-  "version": "1.0.6",
+  "name": "@dankore/docker",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dankore/docker.git"
+    "url": "git+https://github.com/dankore/deploy-to-caprover-using-github-actions.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dankore/docker/issues"
+    "url": "https://github.com/dankore/deploy-to-caprover-using-github-actions/issues"
   },
-  "homepage": "https://github.com/dankore/docker#readme",
+  "homepage": "https://github.com/dankore/deploy-to-caprover-using-github-actions#readme",
   "dependencies": {
     "lite-server": "^2.6.1"
   }
