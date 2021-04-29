@@ -22,8 +22,8 @@ jobs:
           repository: dankore/deploy-to-caprover-using-github-actions/deploy-to-caprover-using-github-actions
           tag_with_ref: true
       # DEPLOY TO CAPROVER. SECRETS STORED IN https://github.com/YOUR-USERNAME/deploy-to-caprover-using-github-actions/settings/secrets/actions
-      - name: Deploy image
-        uses: stardustventures/caprover-deploy@v2
+      - name: Deploy to Caprover
+        uses: dankore/github-to-caprover@v.1.0.6
         with:
           server: "${{ secrets.CAPROVER_URL }}"
           password: "${{ secrets.CAPROVER_PASSWORD }}"
