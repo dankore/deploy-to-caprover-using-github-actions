@@ -1,0 +1,761 @@
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style18
+	{color:#A6A6A6;
+	font-size:14.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Euphemia, sans-serif;
+	mso-font-charset:1;
+	border-top:1.0pt solid #A6A6A6;
+	border-right:none;
+	border-bottom:1.0pt solid #A6A6A6;
+	border-left:none;
+	mso-style-name:"Heading 1";
+	mso-style-id:16;}
+.style19
+	{color:#595959;
+	font-size:18.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	mso-style-name:"Heading 2";
+	mso-style-id:17;}
+.style20
+	{mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	background:#52B86E;
+	mso-pattern:black none;
+	color:white;
+	font-size:9.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:"Key Metric Header";}
+.style22
+	{mso-number-format:0%;
+	text-align:left;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	padding-left:6px;
+	mso-char-indent-count:1;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:#A6A6A6;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:"Key Metric Percentage";}
+.style21
+	{mso-number-format:"\0022$\0022\#\,\#\#0_\)\;\\\(\0022$\0022\#\,\#\#0\\\)";
+	text-align:center;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:#A6A6A6;
+	font-size:20.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt dashed #595959;
+	border-left:none;
+	mso-protection:locked visible;
+	mso-style-name:"Key Metric Value";}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	color:#595959;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Euphemia, sans-serif;
+	mso-font-charset:1;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+.style16
+	{mso-number-format:0%;
+	mso-style-name:Percent;
+	mso-style-id:5;}
+.style17
+	{color:#52B86E;
+	font-size:24.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Euphemia, sans-serif;
+	mso-font-charset:1;
+	mso-style-name:Title;
+	mso-style-id:15;}
+td
+	{mso-style-parent:style0;
+	padding:0px;
+	mso-ignore:padding;
+	color:#595959;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Euphemia, sans-serif;
+	mso-font-charset:1;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl68
+	{mso-style-parent:style0;
+	text-align:center;
+	vertical-align:bottom;}
+.xl69
+	{mso-style-parent:style0;
+	color:black;
+	font-size:11.0pt;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.xl70
+	{mso-style-parent:style0;
+	color:gray;
+	font-size:11.0pt;
+	font-style:italic;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	vertical-align:bottom;}
+.xl71
+	{mso-style-parent:style0;
+	text-align:right;
+	vertical-align:bottom;}
+.xl72
+	{mso-style-parent:style16;
+	mso-number-format:0%;
+	vertical-align:bottom;}
+.xl73
+	{mso-style-parent:style0;
+	text-align:center;}
+.xl74
+	{mso-style-parent:style0;
+	color:black;
+	font-size:11.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:0%;
+	text-align:left;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl75
+	{mso-style-parent:style0;
+	text-align:left;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl76
+	{mso-style-parent:style0;
+	text-align:left;
+	vertical-align:bottom;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl77
+	{mso-style-parent:style17;
+	color:#52B86E;
+	font-size:24.0pt;
+	vertical-align:bottom;}
+.xl78
+	{mso-style-parent:style18;
+	color:#A6A6A6;
+	font-size:14.0pt;
+	vertical-align:bottom;
+	border-top:1.0pt solid #A6A6A6;
+	border-right:none;
+	border-bottom:1.0pt solid #A6A6A6;
+	border-left:none;}
+.xl79
+	{mso-style-parent:style0;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	vertical-align:bottom;}
+.xl80
+	{mso-style-parent:style0;
+	color:white;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:none;
+	background:#52B86E;
+	mso-pattern:black none;}
+.xl81
+	{mso-style-parent:style16;
+	color:#A6A6A6;
+	font-size:14.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:0%;
+	text-align:left;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl82
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid #595959;
+	border-left:none;}
+.xl83
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid #595959;
+	border-left:1.0pt solid #595959;}
+.xl84
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:1.0pt solid #595959;
+	border-bottom:1.0pt solid #595959;
+	border-left:none;}
+.xl85
+	{mso-style-parent:style0;
+	color:white;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:none;
+	background:#52B86E;
+	mso-pattern:black none;}
+.xl86
+	{mso-style-parent:style0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00";
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:none;}
+.xl87
+	{mso-style-parent:style0;
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:none;}
+.xl88
+	{mso-style-parent:style16;
+	mso-number-format:0%;
+	text-align:center;
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:none;}
+.xl89
+	{mso-style-parent:style0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00";
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:none;}
+.xl90
+	{mso-style-parent:style0;
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:none;}
+.xl91
+	{mso-style-parent:style16;
+	mso-number-format:0%;
+	text-align:center;
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:none;}
+.xl92
+	{mso-style-parent:style0;
+	color:white;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	text-align:left;
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:none;
+	background:#52B86E;
+	mso-pattern:black none;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl93
+	{mso-style-parent:style0;
+	color:gray;
+	font-size:11.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;}
+.xl94
+	{mso-style-parent:style0;
+	color:#398C50;
+	font-size:11.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;}
+.xl95
+	{mso-style-parent:style18;
+	color:#A6A6A6;
+	font-size:14.0pt;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:1.0pt solid #A6A6A6;
+	border-right:none;
+	border-bottom:1.0pt solid #A6A6A6;
+	border-left:none;}
+.xl96
+	{mso-style-parent:style0;
+	color:white;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:none;
+	background:#52B86E;
+	mso-pattern:black none;
+	padding-right:6px;
+	mso-char-indent-count:1;}
+.xl97
+	{mso-style-parent:style0;
+	color:gray;
+	font-size:11.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:1.0pt solid #A6A6A6;
+	border-right:.5pt solid #D9D9D9;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:1.0pt solid #A6A6A6;}
+.xl98
+	{mso-style-parent:style0;
+	text-align:left;
+	border-top:1.0pt solid #A6A6A6;
+	border-right:1.0pt solid #A6A6A6;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:.5pt solid #D9D9D9;}
+.xl99
+	{mso-style-parent:style0;
+	color:gray;
+	font-size:11.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:.5pt solid #D9D9D9;
+	border-right:.5pt solid #D9D9D9;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:1.0pt solid #A6A6A6;}
+.xl100
+	{mso-style-parent:style0;
+	text-align:left;
+	border-top:.5pt solid #D9D9D9;
+	border-right:1.0pt solid #A6A6A6;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:.5pt solid #D9D9D9;}
+.xl101
+	{mso-style-parent:style0;
+	border-top:.5pt solid #D9D9D9;
+	border-right:1.0pt solid #A6A6A6;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:.5pt solid #D9D9D9;}
+.xl102
+	{mso-style-parent:style0;
+	color:gray;
+	font-size:11.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:.5pt solid #D9D9D9;
+	border-right:.5pt solid #D9D9D9;
+	border-bottom:1.0pt solid #A6A6A6;
+	border-left:1.0pt solid #A6A6A6;}
+.xl103
+	{mso-style-parent:style0;
+	border-top:.5pt solid #D9D9D9;
+	border-right:1.0pt solid #A6A6A6;
+	border-bottom:1.0pt solid #A6A6A6;
+	border-left:.5pt solid #D9D9D9;}
+.xl104
+	{mso-style-parent:style0;
+	text-align:left;
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl105
+	{mso-style-parent:style0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00";
+	text-align:right;
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl106
+	{mso-style-parent:style0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00";
+	text-align:right;
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	padding-right:6px;
+	mso-char-indent-count:1;}
+.xl107
+	{mso-style-parent:style0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00";
+	text-align:right;}
+.xl108
+	{mso-style-parent:style0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00";
+	text-align:right;
+	padding-right:6px;
+	mso-char-indent-count:1;}
+.xl109
+	{mso-style-parent:style0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00";
+	text-align:right;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:none;}
+.xl110
+	{mso-style-parent:style0;
+	mso-number-format:"\0022$\0022\#\,\#\#0\.00";
+	text-align:right;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:none;
+	padding-right:6px;
+	mso-char-indent-count:1;}
+.xl111
+	{mso-style-parent:style18;
+	color:#A6A6A6;
+	font-size:14.0pt;
+	vertical-align:bottom;
+	border-top:1.0pt solid #A6A6A6;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl112
+	{mso-style-parent:style22;
+	color:#A6A6A6;
+	font-size:12.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:0%;
+	text-align:left;
+	border-top:.5pt dashed #595959;
+	border-right:1.0pt solid #595959;
+	border-bottom:none;
+	border-left:1.0pt solid #595959;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl113
+	{mso-style-parent:style0;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:1.0pt solid #595959;
+	border-bottom:none;
+	border-left:1.0pt solid #595959;}
+.xl114
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:1.0pt solid #595959;
+	border-bottom:1.0pt solid #595959;
+	border-left:1.0pt solid #595959;}
+.xl115
+	{mso-style-parent:style0;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:1.0pt solid #595959;
+	border-bottom:none;
+	border-left:1.0pt solid #595959;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl116
+	{mso-style-parent:style21;
+	color:#A6A6A6;
+	font-size:20.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\0022$\0022\#\,\#\#0_\)\;\\\(\0022$\0022\#\,\#\#0\\\)";
+	text-align:center;
+	border-top:none;
+	border-right:1.0pt solid #595959;
+	border-bottom:none;
+	border-left:none;}
+.xl117
+	{mso-style-parent:style16;
+	color:#A6A6A6;
+	font-size:12.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:0%;
+	text-align:left;
+	border-top:.5pt dashed #595959;
+	border-right:1.0pt solid #595959;
+	border-bottom:none;
+	border-left:1.0pt solid #595959;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl118
+	{mso-style-parent:style21;
+	color:#A6A6A6;
+	font-size:20.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\0022$\0022\#\,\#\#0_\)\;\\\(\0022$\0022\#\,\#\#0\\\)";
+	text-align:center;
+	border-top:none;
+	border-right:1.0pt solid #595959;
+	border-bottom:.5pt dashed #595959;
+	border-left:1.0pt solid #595959;}
+.xl119
+	{mso-style-parent:style19;
+	font-size:18.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;}
+.xl120
+	{mso-style-parent:style20;
+	color:white;
+	font-size:9.0pt;
+	font-weight:700;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:1.0pt solid #52B86E;
+	border-right:1.0pt solid #52B86E;
+	border-bottom:none;
+	border-left:1.0pt solid #52B86E;
+	background:#52B86E;
+	mso-pattern:black none;}
+.xl121
+	{mso-style-parent:style0;
+	color:white;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:none;
+	background:#52B86E;
+	mso-pattern:black none;}
+.xl122
+	{mso-style-parent:style0;
+	text-align:left;
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:none;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl123
+	{mso-style-parent:style0;
+	text-align:left;
+	border-top:.5pt solid #D9D9D9;
+	border-right:none;
+	border-bottom:.5pt solid #D9D9D9;
+	border-left:none;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl124
+	{mso-style-parent:style18;
+	color:#A6A6A6;
+	font-size:20.0pt;
+	text-align:center;
+	border-top:1.0pt solid #A6A6A6;
+	border-right:none;
+	border-bottom:1.0pt solid #A6A6A6;
+	border-left:none;}
+.xl125
+	{mso-style-parent:style22;
+	color:#A6A6A6;
+	font-size:12.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:0%;
+	text-align:left;
+	border-top:.5pt dashed #595959;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid #595959;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl126
+	{mso-style-parent:style22;
+	color:#A6A6A6;
+	font-size:12.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:0%;
+	text-align:left;
+	border-top:.5pt dashed #595959;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl127
+	{mso-style-parent:style22;
+	color:#A6A6A6;
+	font-size:12.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:0%;
+	text-align:left;
+	border-top:.5pt dashed #595959;
+	border-right:1.0pt solid #595959;
+	border-bottom:none;
+	border-left:none;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl128
+	{mso-style-parent:style21;
+	color:#A6A6A6;
+	font-size:20.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\0022$\0022\#\,\#\#0_\)\;\\\(\0022$\0022\#\,\#\#0\\\)";
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt dashed #595959;
+	border-left:1.0pt solid #595959;}
+.xl129
+	{mso-style-parent:style21;
+	color:#A6A6A6;
+	font-size:20.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\0022$\0022\#\,\#\#0_\)\;\\\(\0022$\0022\#\,\#\#0\\\)";
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt dashed #595959;
+	border-left:none;}
+.xl130
+	{mso-style-parent:style21;
+	color:#A6A6A6;
+	font-size:20.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\0022$\0022\#\,\#\#0_\)\;\\\(\0022$\0022\#\,\#\#0\\\)";
+	text-align:center;
+	border-top:none;
+	border-right:1.0pt solid #595959;
+	border-bottom:.5pt dashed #595959;
+	border-left:none;}
+.xl131
+	{mso-style-parent:style0;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid #595959;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl132
+	{mso-style-parent:style0;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:1.0pt solid #595959;
+	border-bottom:none;
+	border-left:none;
+	padding-left:6px;
+	mso-char-indent-count:1;}
+.xl133
+	{mso-style-parent:style20;
+	color:white;
+	font-size:9.0pt;
+	font-weight:700;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:1.0pt solid #52B86E;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid #52B86E;
+	background:#52B86E;
+	mso-pattern:black none;}
+.xl134
+	{mso-style-parent:style20;
+	color:white;
+	font-size:9.0pt;
+	font-weight:700;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:1.0pt solid #52B86E;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#52B86E;
+	mso-pattern:black none;}
+.xl135
+	{mso-style-parent:style20;
+	color:white;
+	font-size:9.0pt;
+	font-weight:700;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:1.0pt solid #52B86E;
+	border-right:1.0pt solid #52B86E;
+	border-bottom:none;
+	border-left:none;
+	background:#52B86E;
+	mso-pattern:black none;}
