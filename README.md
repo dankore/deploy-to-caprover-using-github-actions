@@ -2,7 +2,7 @@
 
 ![banner](./banner.png)
 
-![Deploy to Caprover](https://github.com/dankore/deploy-to-caprover-using-github-actions/workflows/Deploy%20to%20Caprover/badge.svg)
+[![Create and publish a Docker image to Caprover](https://github.com/dankore/deploy-to-caprover-using-github-actions/actions/workflows/deploy-to-caprover.yml/badge.svg)](https://github.com/dankore/deploy-to-caprover-using-github-actions/actions/workflows/deploy-to-caprover.yml)
 ![Latest Release](https://github.com/dankore/deploy-to-caprover-using-github-actions/workflows/Latest%20Release/badge.svg)
 
 ## IMPROVE THE REPO
