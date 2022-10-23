@@ -1,32 +1,48 @@
-name: Deploy to Caprover
+name: Create and publish a Docker image to Caprover
+
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches: ['master']
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
 
 jobs:
-  caprover-deploy:
+  build-and-push-image:
     runs-on: ubuntu-latest
-    container: node:14
+    permissions:
+      contents: read
+      packages: write
+
     steps:
-      # BUILD THE IMAGE
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Push docker image to GitHub Packages
-        uses: docker/build-push-action@v1
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Log in to the Container registry
+        uses: docker/login-action@v2
         with:
+          registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-          registry: docker.pkg.github.com
-          repository: dankore/deploy-to-caprover-using-github-actions/deploy-to-caprover-using-github-actions
-          tag_with_ref: true
-      # DEPLOY TO CAPROVER. SECRETS STORED IN https://github.com/YOUR-USERNAME/deploy-to-caprover-using-github-actions/settings/secrets/actions
+
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
       - name: Deploy to Caprover
         uses: dankore/github-to-caprover@v.1.0.6
         with:
           server: "${{ secrets.CAPROVER_URL }}"
           password: "${{ secrets.CAPROVER_PASSWORD }}"
-          appname: "${{ secrets.CAPROVER_APP }}"
-          image: docker.pkg.github.com/dankore/deploy-to-caprover-using-github-actions
-         
+          appName: "${{ secrets.CAPROVER_APP }}"
+          image: ghcr.io/dankore/deploy-to-caprover-using-github-actions:master
