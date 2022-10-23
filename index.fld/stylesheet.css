@@ -28,6 +28,35 @@ br
 	mso-font-charset:0;
 	mso-style-name:"Heading 2";
 	mso-style-id:17;}
+.style165
+	{color:#308DBB;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Euphemia, sans-serif;
+	mso-font-charset:1;
+	mso-style-name:Hyperlink;
+	mso-style-id:8;}
+a:link
+	{color:#308DBB;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Euphemia, sans-serif;
+	mso-font-charset:1;}
+a:visited
+	{color:#915B97;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Euphemia, sans-serif;
+	mso-font-charset:1;}
 .style20
 	{mso-number-format:General;
 	text-align:center;
@@ -759,3 +788,14 @@ td
 	border-left:none;
 	background:#52B86E;
 	mso-pattern:black none;}
+.xl136
+	{mso-style-parent:style0;
+	color:#595959;
+	font-size:18.0pt;
+	font-family:"Franklin Gothic Medium", sans-serif;
+	mso-font-charset:0;}
+.xl137
+	{mso-style-parent:style165;
+	color:#308DBB;
+	text-decoration:underline;
+	text-underline-style:single;}
