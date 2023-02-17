@@ -1,17 +1,17 @@
 {
-  "name": "@dankore/docker",
-  "version": "1.0.9",
-  "description": "",
+  "name": "demo-the-use-of-caprover-actions-by-adamu",
+  "version": "2.0.0",
+  "description": "A demo app to show how to use the dankore/github-to-caprover@v.1.0.6 GitHub action to deploy to CapRover",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0",
-    "start": "lite-server"
+    "start": "lite-server",
+    "test": "exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dankore/deploy-to-caprover-using-github-actions.git"
+    "url": "https://github.com/dankore/deploy-to-caprover-using-github-actions.git"
   },
-  "author": "",
+  "author": "Adamu Muhammad Dankore",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dankore/deploy-to-caprover-using-github-actions/issues"

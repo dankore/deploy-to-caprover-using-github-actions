@@ -1,27 +1,23 @@
+# Use a lightweight Node.js image
 FROM node:alpine
 
-# Set working directory
+# Set the working directory
 WORKDIR /usr/app
 
 # Install PM2 globally
 RUN npm install --global pm2
 
-# Copy "package.json" and "package-lock.json" before other files
-# Utilise Docker cache to save re-installing dependencies if unchanged
-COPY ./package*.json ./
+# Copy only the package.json and yarn.lock files to optimize caching
+COPY package.json yarn.lock ./
 
 # Install dependencies
-RUN npm install --production
+RUN yarn install --production --frozen-lockfile
 
-# Copy all files
-COPY ./ ./
+# Copy the rest of the files
+COPY . .
 
 # Expose the listening port
 EXPOSE 3000
 
-# Run container as non-root (unprivileged) user
-# The "node" user is provided in the Node.js Alpine base image
-USER node
-
-# Launch app with PM2
-CMD [ "pm2-runtime", "start", "npm", "--", "start" ]
+# Run the app with PM2
+CMD ["pm2-runtime", "start", "npm", "--", "start"]
