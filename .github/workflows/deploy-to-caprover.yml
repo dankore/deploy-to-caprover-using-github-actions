@@ -42,7 +42,7 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
       - name: Deploy to Caprover
-        uses: dankore/github-to-caprover@v.1.0.6
+        uses: dankore/github-to-caprover@v1.0.9
         with:
           server: "${{ secrets.CAPROVER_URL }}"
           password: "${{ secrets.CAPROVER_PASSWORD }}"
